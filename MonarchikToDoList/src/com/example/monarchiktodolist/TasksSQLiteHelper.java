@@ -3,7 +3,7 @@ package com.example.monarchiktodolist;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
+///Store
 public class TasksSQLiteHelper extends SQLiteOpenHelper{
 //Define the Table and Columns
 //Static doesnt change and we can access the value directly.
@@ -28,12 +28,12 @@ public class TasksSQLiteHelper extends SQLiteOpenHelper{
 	//Do all of the instructions system
 	
 	private static final String DATABASE_CREATE = 
-			"create table "
+			" create table "
 			+ TABLE_TASKS + "("
-			+ COLUMN_ID + "integer primary key autoincrement, "
+			+ COLUMN_ID + " integer primary key autoincrement, "
 			+ COLUMN_PRIORITY + " integer not null, "
 			+ COLUMN_DATE + " text not null, "
-			+ COLUMN_TASK + " text not null"
+			+ COLUMN_TASK + " text not null, "
 			+ COLUMN_COMPLETED + " integer not null);";
 	
 	
