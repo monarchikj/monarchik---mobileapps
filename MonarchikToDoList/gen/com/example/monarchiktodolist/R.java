@@ -36,7 +36,7 @@ public final class R {
         public static final int chkPriority=0x7f080004;
         public static final int edtDueDate=0x7f080007;
         public static final int edtTask=0x7f08000b;
-        public static final int listView1=0x7f080016;
+        public static final int lstTasks=0x7f080016;
         public static final int tableRow1=0x7f080001;
         public static final int tableRow10=0x7f080014;
         public static final int tableRow2=0x7f080003;
