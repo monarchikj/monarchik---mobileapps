@@ -24,7 +24,7 @@ public class ToDoList {
 	}
 	
 	public void editTask(Task t){
-		tasksDataSource.deleteTask(t);
+		tasksDataSource.editTask(t);
 	}
 	
 	public void deleteTask(Task t){
